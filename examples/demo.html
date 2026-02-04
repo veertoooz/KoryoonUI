@@ -37,7 +37,14 @@
       rootNodeId: 'root',
       config: {
         scale: {
-          sphereSizeBase: 10,
+          sphereSizeBase: window.innerWidth * 0.01,
+        },
+        theme: {
+          pointCloud: {
+            hoverColor: 'red',
+            inactiveColor: 'black',
+            color: 'blue',
+          },
         },
       },
     });

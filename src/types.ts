@@ -48,6 +48,13 @@ export interface KoryoonConfig {
   /** Default: first node with parentId === null */
   rootNodeId?: string;
   scale?: KoryoonScaleConfig;
+  theme?: {
+    pointCloud?: {
+      inactiveColor: string;
+      hoverColor: string;
+      color: string;
+    }
+  }
 }
 
 export interface KoryoonState {

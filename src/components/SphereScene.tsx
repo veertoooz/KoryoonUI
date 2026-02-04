@@ -521,9 +521,9 @@ export const SphereScene = ({ hierarchy: initialHierarchy, rootNodeId: propsRoot
                 count={10000}
                 radius={sphereSize}
                 pointSize={0.05}
-                color={autoHoveredSphereId && isCenter ? "black": "purple"}
+                color={autoHoveredSphereId && isCenter ? config?.theme?.pointCloud?.inactiveColor || "black": config?.theme?.pointCloud?.color || "purple"}
                 hoverScale={1.4}
-                hoverColor={"purple"}
+                hoverColor={config?.theme?.pointCloud?.hoverColor || "purple"}
                 animate={true}
                 speed={node.id === autoHoveredSphereId ? 0: 20}
                 position={position}
