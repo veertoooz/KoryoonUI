@@ -1,0 +1,274 @@
+{
+  "hiphop": {
+    "id": "hiphop",
+    "name": "Ապեեե Հոպ",
+    "type": "culture",
+    "description": "Global Cultural Movement (1970s-Present)",
+    "parentId": null,
+    "childrenIds": ["rappers"],
+    "depth": 0,
+    "isRoot": true,
+    "color": "primary",
+    "theme": "dark",
+    "backgroundTexture": "2k_urban_city.jpg",
+    "angle": 0,
+    "icon": "🌍",
+    "radius": 3,
+    "component": "StatsCard",
+    "componentProps": {
+      "title": "Global Hip Hop Metrics (2025)",
+      "stats": {
+        "Market Value": "$19.2B",
+        "Cultural Impact": "9.8/10",
+        "Active Artists": "1.4M+",
+        "Streams/Yr": "1.7T",
+        "Languages": "87+",
+        "Nobel Mentions": "4"
+      },
+      "color": "primary"
+    },
+    "metadata": {
+      "foundingYear": 1973,
+      "geographicOrigin": "South Bronx, NYC",
+      "foundingFigures": ["DJ Kool Herc", "Afrika Bambaataa", "Grandmaster Flash", "Coke La Rock"],
+      "keyEvents": ["August 11, 1973: 1st Hip Hop Party", "1979: First Commercial Release", "1986: First Platinum Album"],
+      "economicImpact": 81000000000,
+      "academicFields": ["Hip Hop Studies", "Ethnomusicology", "Cultural Sociology", "African Diaspora Studies"],
+      "museumExhibitions": 92,
+      "unRecognition": 2004,
+      "postageStamps": 14
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.15,
+      "scale": 2.5,
+      "intensity": 0.2,
+      "particleCount": 1200
+    },
+    "iframe": null
+  },
+  "rappers": {
+    "id": "rappers",
+    "name": "Ռեփերներ",
+    "type": "category",
+    "description": "Notable Hip Hop Rappers Worldwide",
+    "parentId": "hiphop",
+    "childrenIds": ["vnas","karrr","lyov","danak","dav"],
+    "depth": 1,
+    "isRoot": false,
+    "color": "secondary",
+    "theme": "dark",
+    "backgroundTexture": "2k_urban_city.jpg",
+    "angle": 45,
+    "icon": "🎤",
+    "radius": 2,
+    "component": "RapperList",
+    "componentProps": {},
+    "metadata": {},
+    "perlinSettings": {
+      "enabled": false,
+      "particleMode": false,
+      "speed": 0,
+      "scale": 0,
+      "intensity": 0,
+      "particleCount": 0
+    },
+    "iframe": null
+  },
+  "vnas": {
+    "id": "vnas",
+    "name": "Վնաս",
+    "type": "artist",
+    "description": "International Hip Hop Artist from Armenia",
+    "parentId": "rappers",
+    "childrenIds": [],
+    "depth": 2,
+    "isRoot": false,
+    "color": "tertiary",
+    "theme": "dark",
+    "backgroundTexture": "2k_urban_city.jpg",
+    "angle": 90,
+    "icon": "🎧",
+    "radius": 1,
+    "component": "RapperProfile",
+    "componentProps": {
+      "name": "V-NAS",
+      "bio": "V-NAS is an internationally acclaimed hip hop artist hailing from Armenia, known for his unique blend of traditional Armenian sounds with modern hip hop beats. With a career spanning over a decade, V-NAS has released multiple chart-topping albums and has collaborated with renowned artists worldwide.",
+      "notableWorks": ["Echoes of Yerevan", "Beats of the Caucasus", "Global Rhythms"],
+      "awards": ["Best International Hip Hop Artist 2022", "Cultural Ambassador Award 2023"]
+    },
+    "metadata": {
+      "birthYear": 1990,
+      "originCity": "Yerevan, Armenia",
+      "debutYear": 2010,
+      "albumsReleased": 5,
+      "internationalTours": 12
+    },
+    "perlinSettings": {
+      "enabled": false,
+      "particleMode": false,
+      "speed": 0,
+      "scale": 0,
+      "intensity": 0,
+      "particleCount": 0
+    },
+    "iframe": null
+  },
+  "karrr":{
+    "id": "karrr",
+    "name": "Կար",
+    "type": "artist",
+    "description": "Hip Hop Artist from USA",
+    "parentId": "rappers",
+    "childrenIds": [],
+    "depth": 2,
+    "isRoot": false,
+    "color": "tertiary",
+    "theme": "dark",
+    "backgroundTexture": "2k_urban_city.jpg",
+    "angle": 135,
+    "icon": "🎧",
+    "radius": 1,
+    "component": "RapperProfile",
+    "componentProps": {
+      "name": "KARRR",
+      "bio": "KARRR is a dynamic hip hop artist from the USA, known for his energetic performances and thought-provoking lyrics. Since his debut, KARRR has made a significant impact on the hip hop scene with his innovative sound and engaging storytelling.",
+      "notableWorks": ["Urban Chronicles", "Beats of the Street", "Voices of the City"],
+      "awards": ["Best New Hip Hop Artist 2021", "Lyricist of the Year 2022"]
+    },
+    "metadata": {
+      "birthYear": 1995,
+      "originCity": "Los Angeles, USA",
+      "debutYear": 2018,
+      "albumsReleased": 3,
+      "internationalTours": 8
+    },
+    "perlinSettings": {
+      "enabled": false,
+      "particleMode": false,
+      "speed": 0,
+      "scale": 0,
+      "intensity": 0,
+      "particleCount": 0
+    },
+    "iframe": null
+  },
+  "lyov":{
+    "id": "lyov",
+    "name": "Լյով",
+    "type": "artist",
+    "description": "Hip Hop Artist from Russia",
+    "parentId": "rappers",
+    "childrenIds": [],
+    "depth": 2,
+    "isRoot": false,
+    "color": "tertiary",
+    "theme": "dark",
+    "backgroundTexture": "2k_urban_city.jpg",
+    "angle": 180,
+    "icon": "🎧",
+    "radius": 1,
+    "component": "RapperProfile",
+    "componentProps": {
+      "name": "LYOV",
+      "bio": "LYOV is a prominent hip hop artist from Russia, celebrated for his distinctive style and impactful lyrics. With a growing fanbase, LYOV has released several successful albums and is known for his energetic live performances.",
+      "notableWorks": ["Rhythms of Moscow", "Street Stories", "Voices of the East"],
+      "awards": ["Best Hip Hop Artist Russia 2022", "Cultural Impact Award 2023"]
+    },
+    "metadata": {
+      "birthYear": 1992,
+      "originCity": "Moscow, Russia",
+      "debutYear": 2012,
+      "albumsReleased": 4,
+      "internationalTours": 10
+    },
+    "perlinSettings": {
+      "enabled": false,
+      "particleMode": false,
+      "speed": 0,
+      "scale": 0,
+      "intensity": 0,
+      "particleCount": 0
+    },
+    "iframe": null
+  },
+  "danak":{
+    "id": "danak",
+    "name": "Դանակ",
+    "type": "artist",
+    "description": "Hip Hop Artist from Georgia",
+    "parentId": "rappers",
+    "childrenIds": [],
+    "depth": 2,
+    "isRoot": false,
+    "color": "tertiary",
+    "theme": "dark",
+    "backgroundTexture": "2k_urban_city.jpg",
+    "angle": 225,
+    "icon": "🎧",
+    "radius": 1,
+    "component": "RapperProfile",
+    "componentProps": {
+      "name": "DANAK",
+      "bio": "DANAK is a rising hip hop artist from Georgia, known for his unique fusion of traditional Georgian music with contemporary hip hop elements. With a growing discography, DANAK has quickly become a notable figure in the regional hip hop scene.",
+      "notableWorks": ["Tbilisi Vibes", "Caucasus Beats", "Global Flow"],
+      "awards": ["Best Newcomer Hip Hop Artist 2023", "Cultural Fusion Award 2024"]
+    },
+    "metadata": {
+      "birthYear": 1994,
+      "originCity": "Tbilisi, Georgia",
+      "debutYear": 2016,
+      "albumsReleased": 2,
+      "internationalTours": 5
+    },
+    "perlinSettings": {
+      "enabled": false,
+      "particleMode": false,
+      "speed": 0,
+      "scale": 0,
+      "intensity": 0,
+      "particleCount": 0
+    },
+    "iframe": null
+  },
+  "dav":{
+    "id": "dav",
+    "name": "Դավ",
+    "type": "artist",
+    "description": "Hip Hop Artist from France",
+    "parentId": "rappers",
+    "childrenIds": [],
+    "depth": 2,
+    "isRoot": false,
+    "color": "tertiary",
+    "theme": "dark",
+    "backgroundTexture": "2k_urban_city.jpg",
+    "angle": 270,
+    "icon": "🎧",
+    "radius": 1,
+    "component": "RapperProfile",
+    "componentProps": {
+      "name": "DAV",
+      "bio": "DAV is a well-known hip hop artist from France, recognized for his lyrical prowess and innovative sound. With a successful career, DAV has released multiple albums and has been influential in shaping the French hip hop landscape.",
+      "notableWorks": ["Parisian Nights", "Beats of France", "Global Rhythms"],
+      "awards": ["Best Hip Hop Artist France 2021", "Lyricist of the Year 2022"]
+    },
+    "metadata": {
+      "birthYear": 1988,
+      "originCity": "Paris, France",
+      "debutYear": 2008,
+      "albumsReleased": 6,
+      "internationalTours": 15
+    },
+    "perlinSettings": {
+      "enabled": false,
+      "particleMode": false,
+      "speed": 0,
+      "scale": 0,
+      "intensity": 0,
+      "particleCount": 0
+    },
+    "iframe": null
+  }
+}

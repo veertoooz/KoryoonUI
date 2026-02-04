@@ -1,0 +1,1061 @@
+{
+  "hiphop": {
+    "id": "hiphop",
+    "name": "Ապեեե Հոպ",
+    "type": "culture",
+    "description": "Global Cultural Movement (1970s-Present)",
+    "parentId": null,
+    "childrenIds": ["pillars", "eras", "regions", "business", "legacy", "technology", "fashion", "education"],
+    "depth": 0,
+    "isRoot": true,
+    "color": "primary",
+    "theme": "dark",
+    "backgroundTexture": "2k_urban_city.jpg",
+    "angle": 0,
+    "icon": "🌍",
+    "radius": 3,
+    "component": "StatsCard",
+    "componentProps": {
+      "title": "Global Hip Hop Metrics (2025)",
+      "stats": {
+        "Market Value": "$19.2B",
+        "Cultural Impact": "9.8/10",
+        "Active Artists": "1.4M+",
+        "Streams/Yr": "1.7T",
+        "Languages": "87+",
+        "Nobel Mentions": "4"
+      },
+      "color": "primary"
+    },
+    "metadata": {
+      "foundingYear": 1973,
+      "geographicOrigin": "South Bronx, NYC",
+      "foundingFigures": ["DJ Kool Herc", "Afrika Bambaataa", "Grandmaster Flash", "Coke La Rock"],
+      "keyEvents": ["August 11, 1973: 1st Hip Hop Party", "1979: First Commercial Release", "1986: First Platinum Album"],
+      "economicImpact": 81000000000,
+      "academicFields": ["Hip Hop Studies", "Ethnomusicology", "Cultural Sociology", "African Diaspora Studies"],
+      "museumExhibitions": 92,
+      "unRecognition": 2004,
+      "postageStamps": 14
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.15,
+      "scale": 2.5,
+      "intensity": 0.2,
+      "particleCount": 1200
+    },
+    "iframe": null
+  },
+  "pillars": {
+    "id": "pillars",
+    "name": "Five Pillars",
+    "type": "foundation",
+    "description": "Core Elements of Hip Hop",
+    "parentId": "hiphop",
+    "childrenIds": ["mcing", "djing", "breaking", "grafitti", "knowledge", "beatboxing", "fashion"],
+    "depth": 1,
+    "isRoot": false,
+    "color": "secondary",
+    "theme": "luxury",
+    "backgroundTexture": "2k_gold_texture.jpg",
+    "angle": 45,
+    "icon": "⚡",
+    "radius": 2.2,
+    "component": "TimelineCard",
+    "componentProps": {
+      "title": "Evolution of Elements",
+      "timeline": [
+        { "year": "1973", "event": "DJ Kool Herc invents break-beat technique" },
+        { "year": "1979", "event": "\"Rapper's Delight\" becomes first mainstream hit" },
+        { "year": "1982", "event": "Wild Style film documents all four elements" },
+        { "year": "1984", "event": "Breaking featured in Olympic Games" },
+        { "year": "1996", "event": "KRS-One establishes Temple of Hip Hop" },
+        { "year": "2017", "event": "Hip Hop officially added to UNESCO cultural heritage" }
+      ],
+      "color": "secondary"
+    },
+    "metadata": {
+      "canonicalElements": ["MCing", "DJing", "Breaking", "Graffiti Writing", "Knowledge"],
+      "addedElements": ["Beatboxing", "Fashion", "Entrepreneurship", "Activism", "Production"],
+      "preservationInstitutions": ["Universal Zulu Nation", "Rock Steady Crew", "IRT Graffiti", "Temple of Hip Hop"],
+      "elementRecognition": ["Olympic Sport (Breaking)", "UNESCO Heritage", "Academic Discipline"],
+      "annualEvents": ["Battle of the Year", "DMC Championships", "Writer's Bench"]
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": false,
+      "speed": 0.3,
+      "scale": 2.8,
+      "intensity": 0.25
+    },
+    "iframe": null
+  },
+  "mcing": {
+    "id": "mcing",
+    "name": "MCing/Rapping",
+    "type": "element",
+    "description": "Oral delivery of rhythmic speech",
+    "parentId": "pillars",
+    "childrenIds": ["flow_architects", "lyricists", "storytellers", "political", "melodic", "trap", "battle"],
+    "depth": 2,
+    "isRoot": false,
+    "color": "accent",
+    "theme": "synthwave",
+    "backgroundTexture": "2k_microphone_texture.jpg",
+    "angle": 60,
+    "icon": "🎤",
+    "radius": 1.8,
+    "component": "StatsCard",
+    "componentProps": {
+      "title": "MCing Analytics",
+      "stats": {
+        "BPM Range": "70-160",
+        "Vocabulary": "Top 1% linguistically",
+        "Rhyme Density": "2.4 rhymes/bar avg",
+        "Flow Patterns": "87+ styles identified",
+        "Breath Control": "8-12 bars/breath elite",
+        "Syllable Complexity": "14 avg/bar"
+      },
+      "color": "accent"
+    },
+    "metadata": {
+      "stylisticEras": ["Old School", "Golden Age", "Boom Bap", "Trap", "Mumble Rap", "Melodic Rap"],
+      "technicalMetrics": {
+        "syllableDensity": { "min": 8, "max": 22, "avg": 14 },
+        "rhymeComplexity": { "endRhyme": 65, "internalRhyme": 25, "multiSyllabic": 10 },
+        "cadenceTypes": ["Staccato", "Legato", "Syncopated", "Polyrhythmic", "Triplet"],
+        "rhymeSchemes": ["AABB", "ABAB", "AAAA", "Freeform", "Complex"]
+      },
+      "influentialTexts": ["Book of Rhymes", "The Rap Yearbook", "How to Rap", "Decoded"],
+      "vocalTechniques": ["Alliteration", "Assonance", "Consonance", "Onomatopoeia", "Metaphor"],
+      "avgCareerLength": "12.3 years"
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.4,
+      "scale": 1.8,
+      "intensity": 0.18,
+      "particleCount": 800
+    },
+    "iframe": null
+  },
+  "flow_architects": {
+    "id": "flow_architects",
+    "name": "Flow Architects",
+    "type": "subcategory",
+    "description": "Innovators of rhythmic delivery",
+    "parentId": "mcing",
+    "childrenIds": ["rakim", "andre3k", "kendrick", "doom", "twista", "busta", "tech9"],
+    "depth": 3,
+    "isRoot": false,
+    "color": "info",
+    "theme": "cyberpunk",
+    "backgroundTexture": "2k_circuit_board.jpg",
+    "angle": 90,
+    "icon": "🌀",
+    "radius": 1.5,
+    "component": "InfluenceCard",
+    "componentProps": {
+      "title": "Flow Evolution Timeline",
+      "influences": [
+        { "source": "Scat Singing (Ella)", "impact": 85, "era": "1950s", "innovation": "Vocal Improvisation" },
+        { "source": "Doo-Wop Cadences", "impact": 70, "era": "1960s", "innovation": "Harmonic Delivery" },
+        { "source": "Jazz Poetry (Gil)", "impact": 90, "era": "1970s", "innovation": "Rhythmic Speech" },
+        { "source": "Dancehall Toast", "impact": 95, "era": "1980s", "innovation": "Rhyme Patterns" },
+        { "source": "Spoken Word", "impact": 80, "era": "1990s", "innovation": "Emotional Delivery" },
+        { "source": "Reggaeton", "impact": 75, "era": "2000s", "innovation": "Danceable Flow" }
+      ],
+      "color": "info"
+    },
+    "metadata": {
+      "flowCharacteristics": ["Polysyllabic", "Off-beat", "Triplet", "Melodic", "Conversational", "Staccato", "Legato"],
+      "analysisMethods": ["Spectrogram Analysis", "Rhyme Scheme Mapping", "Breath Pattern Study", "Phonetic Analysis"],
+      "academicPapers": 67,
+      "flowTypes": ["Rakim Style", "Migos Flow", "Chopper Style", "Melodic Rap", "Trap Flow"],
+      "metrics": {
+        "wordsPerMinute": { "slow": 80, "avg": 140, "fast": 220 },
+        "rhymeFrequency": { "low": 1.2, "avg": 2.4, "high": 3.8 },
+        "syllableDensity": { "min": 6, "avg": 14, "max": 24 }
+      }
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.5,
+      "scale": 2,
+      "intensity": 0.22,
+      "particleCount": 600
+    },
+    "iframe": null
+  },
+  "rakim": {
+    "id": "rakim",
+    "name": "Rakim Allah",
+    "type": "artist",
+    "description": "The God MC - Flow Innovator",
+    "parentId": "flow_architects",
+    "childrenIds": ["paid_in_full", "follow_the_leader", "rakim_discog"],
+    "depth": 4,
+    "isRoot": false,
+    "color": "warning",
+    "theme": "retro",
+    "backgroundTexture": "2k_gold_record.jpg",
+    "angle": 120,
+    "icon": "👑",
+    "radius": 1.2,
+    "component": "AvatarCard",
+    "componentProps": {
+      "name": "Rakim Allah",
+      "role": "Internal Rhyme Pioneer",
+      "achievement": "Transformed rap meter forever",
+      "color": "warning",
+      "imageUrl": "/artists/rakim.jpg"
+    },
+    "mountainSettings": {
+      "enabled": true,
+      "terrainDetail": 72,
+      "mountainIntensity": 0.35,
+      "biomes": false,
+      "baseColor": "#fbbd23",
+      "mountainColor": "#d97706",
+      "valleyColor": "#92400e"
+    },
+    "metadata": {
+      "realName": "William Michael Griffin Jr.",
+      "born": "January 28, 1968",
+      "activeYears": "1985-Present",
+      "innovations": ["Internal Rhyme Structures", "Complex Enjambment", "Metaphysical Lyricism", "Layered Delivery"],
+      "influenceScore": 98,
+      "disciples": ["Nas", "Jay-Z", "Eminem", "Kendrick Lamar", "J. Cole", "Black Thought"],
+      "signatureTechnique": "Layered internal rhymes with suspended resolution",
+      "awards": ["Grammy Nominations: 2", "VH1: 2nd Greatest MC", "Source: #1 Lyricist"],
+      "albumCount": 6,
+      "iconicLines": 47,
+      "vocabularySize": 4300,
+      "rhymeDensity": 3.1
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": false,
+      "speed": 0.25,
+      "scale": 1.5,
+      "intensity": 0.12
+    },
+    "iframe": "https://www.youtube.com/embed/embed/rakim-masterclass"
+  },
+  "paid_in_full": {
+    "id": "paid_in_full",
+    "name": "Paid in Full",
+    "type": "album",
+    "description": "1987 - Changed Rap Forever",
+    "parentId": "rakim",
+    "childrenIds": [],
+    "depth": 5,
+    "isRoot": false,
+    "color": "success",
+    "theme": "coffee",
+    "backgroundTexture": "2k_vinyl.jpg",
+    "angle": 150,
+    "icon": "💿",
+    "radius": 0.9,
+    "component": "DiscographyCard",
+    "componentProps": {
+      "title": "Paid in Full Analysis",
+      "albums": [
+        { "title": "Paid in Full", "artist": "Eric B. & Rakim", "year": 1987, "influence": 100 },
+        { "title": "Follow the Leader", "artist": "Eric B. & Rakim", "year": 1988, "influence": 95 },
+        { "title": "Let the Rhythm Hit 'Em", "artist": "Eric B. & Rakim", "year": 1990, "influence": 92 }
+      ],
+      "color": "success"
+    },
+    "metadata": {
+      "releaseDate": "July 7, 1987",
+      "label": "4th & B'way/Island",
+      "producer": "Eric B. & Rakim",
+      "sales": "Platinum (1M+)",
+      "chartPosition": "US R&B: #8",
+      "sampleSources": ["James Brown", "Funkadelic", "Dennis Coffey"],
+      "tracklist": ["I Ain't No Joke", "Eric B. Is President", "My Melody", "I Know You Got Soul"],
+      "criticalReception": "5/5 AllMusic, 10/10 Pitchfork",
+      "legacy": "Often cited as greatest rap album of all time",
+      "sampleClearanceCosts": "$250K (adjusted)",
+      "recordingBudget": "$23,000"
+    },
+    "perlinSettings": {
+      "enabled": false
+    },
+    "iframe": "https://open.spotify.com/album/3E7CSt6Q7Y6MlJ8IjrJEMl"
+  },
+  "eras": {
+    "id": "eras",
+    "name": "Historical Eras",
+    "type": "period",
+    "description": "Evolutionary phases of Hip Hop",
+    "parentId": "hiphop",
+    "childrenIds": ["old_school", "golden_age", "blige_era", "crunk_era", "blog_era", "streaming_era"],
+    "depth": 1,
+    "isRoot": false,
+    "color": "warning",
+    "theme": "retro",
+    "backgroundTexture": "2k_sunrise.jpg",
+    "angle": 120,
+    "icon": "📜",
+    "radius": 2.2,
+    "component": "TimelineCard",
+    "componentProps": {
+      "title": "Era Analysis (1973-2025)",
+      "timeline": [
+        { "year": "1973-1979", "event": "Block Party Era: DIY sound systems, MC battles" },
+        { "year": "1986-1993", "event": "Golden Age: Sample renaissance, lyrical complexity" },
+        { "year": "1998-2006", "event": "Bling Era: $2M video budgets, crossover dominance" },
+        { "year": "2007-2014", "event": "Blog Era: Mixtape dominance, internet fame" },
+        { "year": "2015-Present", "event": "Streaming Era: 300+ songs daily, TikTok virality" }
+      ],
+      "color": "warning"
+    },
+    "metadata": {
+      "technologicalShifts": ["Vinyl → Cassette → CD → MP3 → Streaming → Spatial Audio"],
+      "productionEvolution": ["Live Band → Sampling → MIDI → DAWs → AI → Blockchain"],
+      "distributionChanges": ["Mixtapes → Napster → iTunes → Spotify → TikTok → Web3"],
+      "eraCharacteristics": {
+        "oldSchool": "Call-and-response, party themes",
+        "goldenAge": "Social commentary, jazz samples",
+        "bling": "Materialism, cinematic videos",
+        "blog": "Regional sounds, internet hustle",
+        "streaming": "Short form, viral moments"
+      },
+      "salesMetrics": {
+        "peakVinyl": "1988: 12M units",
+        "peakCD": "1998: 48M units",
+        "peakStreaming": "2024: 1.7T streams"
+      }
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": false,
+      "speed": 0.2,
+      "scale": 2.2,
+      "intensity": 0.18
+    },
+    "iframe": null
+  },
+  "golden_age": {
+    "id": "golden_age",
+    "name": "Golden Age",
+    "type": "era",
+    "description": "1986-1993: Artistic Renaissance",
+    "parentId": "eras",
+    "childrenIds": ["public_enemy", "tribe", "de_la", "gang_starr", "native_tongues"],
+    "depth": 2,
+    "isRoot": false,
+    "color": "success",
+    "theme": "coffee",
+    "backgroundTexture": "2k_vinyl_record.jpg",
+    "angle": 140,
+    "icon": "✨",
+    "radius": 1.8,
+    "component": "DiscographyCard",
+    "componentProps": {
+      "title": "Essential Albums (1987-1994)",
+      "albums": [
+        { "title": "Paid in Full", "artist": "Eric B. & Rakim", "year": 1987, "influence": 100 },
+        { "title": "It Takes a Nation...", "artist": "Public Enemy", "year": 1988, "influence": 98 },
+        { "title": "3 Feet High and Rising", "artist": "De La Soul", "year": 1989, "influence": 95 },
+        { "title": "Straight Outta Compton", "artist": "N.W.A", "year": 1988, "influence": 99 },
+        { "title": "The Low End Theory", "artist": "A Tribe Called Quest", "year": 1991, "influence": 97 },
+        { "title": "Illmatic", "artist": "Nas", "year": 1994, "influence": 99 }
+      ],
+      "color": "success"
+    },
+    "metadata": {
+      "characteristics": ["Jazz samples", "Social commentary", "Complex lyricism", "Boom bap drums", "Conscious themes"],
+      "avgAlbumLength": "55-75 minutes",
+      "sampleClearanceCosts": "$50K-$200K/album",
+      "independentLabels": ["Def Jam", "Tommy Boy", "Priority", "Jive", "Ruthless"],
+      "productionTechniques": ["Sampling", "Drum machine programming", "Live instrumentation"],
+      "politicalImpact": ["FBI attention", "Parental Advisory labels", "Congressional hearings"],
+      "fashion": ["African medallions", "Kangol hats", "Cross Colours", "Timberlands"],
+      "avgSales": "Gold (500K) to Platinum (1M+)"
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.15,
+      "scale": 1.8,
+      "intensity": 0.15,
+      "particleCount": 700
+    },
+    "iframe": "https://www.youtube.com/embed/golden-age-documentary"
+  },
+  "public_enemy": {
+    "id": "public_enemy",
+    "name": "Public Enemy",
+    "type": "group",
+    "description": "Propaganda of the People",
+    "parentId": "golden_age",
+    "childrenIds": [],
+    "depth": 3,
+    "isRoot": false,
+    "color": "error",
+    "theme": "business",
+    "backgroundTexture": "2k_protest.jpg",
+    "angle": 160,
+    "icon": "✊",
+    "radius": 1.4,
+    "component": "SocialImpactCard",
+    "componentProps": {
+      "title": "Political Impact",
+      "impacts": [
+        { "area": "Political Activism", "score": 9.8, "examples": ["Fight the Power anthem", "Black empowerment"] },
+        { "area": "Media Criticism", "score": 9.2, "examples": ["CNN boycott", "Media manipulation exposure"] },
+        { "area": "Fashion Influence", "score": 8.5, "examples": ["B-Boy stance", "Military gear"] },
+        { "area": "Sampling Innovation", "score": 9, "examples": ["Dense sound collages", "James Brown chops"] }
+      ],
+      "color": "error"
+    },
+    "metadata": {
+      "formed": 1985,
+      "members": ["Chuck D", "Flavor Flav", "Professor Griff", "Terminator X", "DJ Lord"],
+      "albumsSold": "20M+ worldwide",
+      "iconicSongs": ["Fight the Power", "Bring the Noise", "Don't Believe the Hype", "911 Is a Joke"],
+      "controversies": ["Anti-Semitism allegations", "FBI monitoring", "Media boycotts"],
+      "awards": ["Grammy: 1 win, 6 nominations", "Rock & Roll Hall of Fame: 2013"],
+      "politicalActivities": ["Voter registration drives", "Stop the Violence Movement", "Education advocacy"],
+      "influence": ["Rage Against the Machine", "The Coup", "Dead Prez", "Run the Jewels"],
+      "sampleLibrary": "3000+ records sampled"
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": false,
+      "speed": 0.4,
+      "scale": 2.5,
+      "intensity": 0.3
+    },
+    "iframe": "https://www.youtube.com/embed/embed/public-enemy-live"
+  },
+  "regions": {
+    "id": "regions",
+    "name": "Regional Scenes",
+    "type": "geography",
+    "description": "Global Hip Hop Ecosystems",
+    "parentId": "hiphop",
+    "childrenIds": ["nyc", "la", "atlanta", "dirty_south", "midwest", "uk", "france", "korea", "japan", "brazil"],
+    "depth": 1,
+    "isRoot": false,
+    "color": "error",
+    "theme": "business",
+    "backgroundTexture": "2k_earth_night.jpg",
+    "angle": 180,
+    "icon": "📍",
+    "radius": 2.3,
+    "component": "RegionalCard",
+    "componentProps": {
+      "title": "Global Market Distribution (2024)",
+      "regions": [
+        { "name": "United States", "marketShare": 62, "growth": 3.8 },
+        { "name": "United Kingdom", "marketShare": 11, "growth": 7.2 },
+        { "name": "South Korea", "marketShare": 8, "growth": 24.7 },
+        { "name": "France", "marketShare": 5, "growth": 4.3 },
+        { "name": "Japan", "marketShare": 4, "growth": 2.9 },
+        { "name": "Brazil", "marketShare": 3, "growth": 18.4 },
+        { "name": "Germany", "marketShare": 2, "growth": 5.1 },
+        { "name": "Australia", "marketShare": 2, "growth": 6.8 }
+      ],
+      "color": "error"
+    },
+    "metadata": {
+      "languageAdaptations": 94,
+      "localHybridGenres": 58,
+      "crossRegionalCollabs": 15200,
+      "diasporaInfluence": "Jamaican → Bronx → Global → Web3",
+      "marketSize": {
+        "northAmerica": 11800000000,
+        "europe": 4200000000,
+        "asia": 2500000000,
+        "latinAmerica": 1800000000,
+        "africa": 900000000,
+        "oceania": 600000000
+      },
+      "streamingPenetration": {
+        "us": 92,
+        "uk": 88,
+        "korea": 96,
+        "brazil": 78,
+        "nigeria": 65,
+        "india": 42
+      },
+      "annualFestivals": 340,
+      "recordLabels": 2800
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.18,
+      "scale": 2.8,
+      "intensity": 0.2,
+      "particleCount": 1000
+    },
+    "iframe": null
+  },
+  "atlanta": {
+    "id": "atlanta",
+    "name": "Atlanta Trap",
+    "type": "scene",
+    "description": "The New Motown (1995-Present)",
+    "parentId": "regions",
+    "childrenIds": ["ti", "gucci", "future", "migos", "thugger", "lilbaby", "21savage"],
+    "depth": 2,
+    "isRoot": false,
+    "color": "purple",
+    "theme": "halloween",
+    "backgroundTexture": "2k_peach_trap.jpg",
+    "angle": 210,
+    "icon": "🏙️",
+    "radius": 1.8,
+    "component": "InfluenceCard",
+    "componentProps": {
+      "title": "ATL Trap Innovation Index",
+      "influences": [
+        { "source": "808 Usage", "impact": 98, "innovation": "Lex Luger snare, 808 Mafia patterns" },
+        { "source": "Triplet Flows", "impact": 95, "innovation": "Migos flow, ad-lib layers" },
+        { "source": "Melodic Rap", "impact": 92, "innovation": "Auto-Tune emotion, singing rap" },
+        { "source": "Producer-Artists", "impact": 88, "innovation": "Artist-led production camps" },
+        { "source": "Mumble Rap", "impact": 85, "innovation": "Phonetic delivery over lexical" },
+        { "source": "Slanguage", "impact": 90, "innovation": "Regional slang globalization" }
+      ],
+      "color": "purple"
+    },
+    "metadata": {
+      "foundingYear": 1995,
+      "keyFigures": ["TI", "Gucci Mane", "Jeezy", "Future", "Migos", "Young Thug"],
+      "studioEcosystem": ["Patchwerk", "Stankonia", "Tree Sound", "Mean Streets"],
+      "producerCollectives": ["808 Mafia", "Metro Boomin camp", "Southside", "London on da Track", "Zaytoven"],
+      "trapCharacteristics": ["Minor keys", "Hi-hat rolls", "Dark synth lines", "Ad-lib layers", "808 slides"],
+      "economicImpact": 5200000000,
+      "annualRevenue": 1800000000,
+      "recordDeals": 47,
+      "streamingRecords": ["Most simultaneous Billboard entries: 27 (Drake)"],
+      "fashionImpact": ["Designer drug references", "Drip culture", "Streetwear dominance"],
+      "prisonToPlatinum": "78% of major ATL artists have served time"
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.6,
+      "scale": 2,
+      "intensity": 0.25,
+      "particleCount": 900
+    },
+    "iframe": "https://www.youtube.com/embed/atlanta-trap-documentary"
+  },
+  "korea": {
+    "id": "korea",
+    "name": "Korean Hip Hop",
+    "type": "scene",
+    "description": "K-Hip Hop Phenomenon (2012-Present)",
+    "parentId": "regions",
+    "childrenIds": ["smtm", "aomg", "h1ghr", "just_music", "ambition"],
+    "depth": 2,
+    "isRoot": false,
+    "color": "pink",
+    "theme": "valentine",
+    "backgroundTexture": "2k_seoul_neon.jpg",
+    "angle": 330,
+    "icon": "🇰🇷",
+    "radius": 1.8,
+    "component": "StatsCard",
+    "componentProps": {
+      "title": "K-Hip Hop Metrics (2024)",
+      "stats": {
+        "Market Growth": "+2850% since 2012",
+        "Idol Rappers": "180+ trained annually",
+        "Show Survival Rate": "1.2% (SMTM)",
+        "Global Streams": "18.4B monthly",
+        "Production Cost": "$750K-$3M/track",
+        "Agency Valuation": "$2.8B (HYBE)"
+      },
+      "color": "pink"
+    },
+    "metadata": {
+      "survivalShows": ["Show Me The Money", "High School Rapper", "Unpretty Rapstar", "Signhere"],
+      "trainingSystem": ["Vocals", "Dance", "Rap", "Language", "Media Training", "Brand Management"],
+      "exportStrategy": ["YouTube First", "Global Tours", "Brand Ambassadors", "OST Placements", "Webtoons"],
+      "uniqueCharacteristics": ["Clean lyrics", "Performance focus", "Group dynamics", "Visual storytelling", "Fan service"],
+      "agencyStructure": ["HYBE", "YG", "SM", "JYP", "AOMG", "H1GHR"],
+      "revenueStreams": {
+        "music": 45,
+        "touring": 25,
+        "merchandise": 15,
+        "endorsements": 10,
+        "content": 5
+      },
+      "globalImpact": ["BTS UN speech", "Blackpink Coachella", "Psy YouTube records"],
+      "fanEconomy": "$800M annual fan club revenue",
+      "trainingCost": "$100K-$500K per trainee",
+      "debutAge": "15-19 years old"
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.8,
+      "scale": 2.2,
+      "intensity": 0.28,
+      "particleCount": 1100
+    },
+    "iframe": "https://www.youtube.com/embed/khiphop-evolution"
+  },
+  "business": {
+    "id": "business",
+    "name": "Hip Hop Economy",
+    "type": "industry",
+    "description": "$19.2B Global Market",
+    "parentId": "hiphop",
+    "childrenIds": ["streaming_economics", "brand_deals", "tech_startups", "catalog_acquisitions", "touring", "merch", "sync"],
+    "depth": 1,
+    "isRoot": false,
+    "color": "gold",
+    "theme": "corporate",
+    "backgroundTexture": "2k_diamond_money.jpg",
+    "angle": 240,
+    "icon": "💰",
+    "radius": 2.2,
+    "component": "BusinessCard",
+    "componentProps": {
+      "title": "Economic Impact Breakdown (2024)",
+      "metrics": [
+        { "label": "Music Streaming", "value": "$4.8B", "growth": 14.7 },
+        { "label": "Brand Partnerships", "value": "$4.2B", "growth": 22.3 },
+        { "label": "Tour Revenue", "value": "$3.4B", "growth": 38.9 },
+        { "label": "Merchandise", "value": "$1.8B", "growth": 27.5 },
+        { "label": "Sync Licensing", "value": "$1.1B", "growth": 12.8 },
+        { "label": "Endorsements", "value": "$2.4B", "growth": 18.6 },
+        { "label": "Tech Investments", "value": "$900M", "growth": 42.1 },
+        { "label": "Catalog Sales", "value": "$700M", "growth": 315 }
+      ],
+      "color": "gold"
+    },
+    "metadata": {
+      "billionaireArtists": 4,
+      "millionaireProducers": 63,
+      "labelAcquisitions": ["Def Jam", "Death Row", "Cash Money", "Aftermath", "Roc-A-Fella", "Bad Boy"],
+      "hipHopIPOs": ["Roc Nation SPAC", "Quality Control Acquisition", "Hipgnosis Songs Fund"],
+      "cryptoAdoption": 72,
+      "nftSales": 240000000,
+      "ventureCapital": 1800000000,
+      "economicMultiplier": 6.8,
+      "jobCreation": 480000,
+      "taxRevenue": 3200000000,
+      "wealthTransfer": "Street economy to corporate boardrooms",
+      "blackOwnedBusinesses": 4700
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": false,
+      "speed": 0.25,
+      "scale": 3,
+      "intensity": 0.35
+    },
+    "iframe": null
+  },
+  "catalog_acquisitions": {
+    "id": "catalog_acquisitions",
+    "name": "Catalog Acquisition",
+    "type": "investment",
+    "description": "Music Publishing Gold Rush (2020-Present)",
+    "parentId": "business",
+    "childrenIds": [],
+    "depth": 2,
+    "isRoot": false,
+    "color": "emerald",
+    "theme": "forest",
+    "backgroundTexture": "2k_money_growth.jpg",
+    "angle": 270,
+    "icon": "📈",
+    "radius": 1.5,
+    "component": "StatsCard",
+    "componentProps": {
+      "title": "Major Catalog Sales",
+      "stats": {
+        "Bob Dylan": "$400M (2020)",
+        "Bruce Springsteen": "$500M (2021)",
+        "Justin Bieber": "$200M (2023)",
+        "Future Royalties": "12-18x multiples",
+        "Hip Hop Premium": "+40-50% valuation",
+        "Largest Deal": "$1B (Queen)"
+      },
+      "color": "emerald"
+    },
+    "metadata": {
+      "buyers": ["Hipgnosis", "Primary Wave", "Round Hill", "Concord", "SHM", "BMG", "Kobalt"],
+      "valuationMetrics": ["Streaming history", "Sync potential", "Cultural relevance", "Fan engagement", "Tour revenue"],
+      "hipHopMultiples": { "classic": 18, "contemporary": 12, "emerging": 8, "legendary": 25 },
+      "riskFactors": ["Sample clearance", "Artist controversies", "Genre evolution", "Platform changes"],
+      "investmentThesis": "Music as durable asset class",
+      "averageHoldPeriod": "7-10 years",
+      "returnOnInvestment": "14-22% annually",
+      "dueDiligence": "6-9 months",
+      "legalComplexity": "High (multiple rights holders)",
+      "taxAdvantages": "Capital gains treatment"
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.1,
+      "scale": 1.8,
+      "intensity": 0.15,
+      "particleCount": 500
+    },
+    "iframe": "https://www.bloomberg.com/music-royalties"
+  },
+  "legacy": {
+    "id": "legacy",
+    "name": "Cultural Legacy",
+    "type": "impact",
+    "description": "Beyond Music - Social Transformation",
+    "parentId": "hiphop",
+    "childrenIds": ["social_impact", "fashion", "language", "education", "technology", "politics", "health"],
+    "depth": 1,
+    "isRoot": false,
+    "color": "emerald",
+    "theme": "garden",
+    "backgroundTexture": "2k_leaf_growth.jpg",
+    "angle": 300,
+    "icon": "🌱",
+    "radius": 2.2,
+    "component": "SocialImpactCard",
+    "componentProps": {
+      "title": "Global Influence Index",
+      "impacts": [
+        { "area": "Language Evolution", "score": 9.7, "examples": ["Slang dictionary", "Internet meme culture", "Global youth vernacular"] },
+        { "area": "Fashion Industry", "score": 9.2, "examples": ["Streetwear $210B", "Sneaker culture", "Luxury collaborations"] },
+        { "area": "Political Activism", "score": 8.9, "examples": ["BLM anthems", "Voter registration", "Social justice campaigns"] },
+        { "area": "Education Reform", "score": 8.5, "examples": ["Hip Hop pedagogy", "Youth programs", "Literacy through rap"] },
+        { "area": "Technology Adoption", "score": 9.1, "examples": ["Social media", "Streaming innovation", "Mobile first"] },
+        { "area": "Mental Health", "score": 8.3, "examples": ["Therapeutic rap", "Community healing", "Trauma expression"] }
+      ],
+      "color": "emerald"
+    },
+    "metadata": {
+      "academicPrograms": 287,
+      "museumExhibitions": 112,
+      "unRecognition": 2004,
+      "presidentialMeetings": 7,
+      "postageStamps": 16,
+      "nationalHolidays": "August 11: Hip Hop Day",
+      "literatureImpact": 3400,
+      "filmDocumentaries": 780,
+      "theaterProductions": 430,
+      "fineArt": 2100,
+      "philanthropy": 4200000000,
+      "socialMovements": ["Rock the Vote", "Know Your Rights", "Stop the Violence"],
+      "generationalShift": "Boomers → Gen X → Millennials → Gen Z → Alpha",
+      "culturalExchange": "Bronx → Tokyo → Lagos → Seoul → Global"
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.12,
+      "scale": 2.5,
+      "intensity": 0.2,
+      "particleCount": 1200
+    },
+    "iframe": null
+  },
+  "fashion": {
+    "id": "fashion",
+    "name": "Fashion Influence",
+    "type": "industry",
+    "description": "From Streets to Runways",
+    "parentId": "legacy",
+    "childrenIds": [],
+    "depth": 2,
+    "isRoot": false,
+    "color": "orange",
+    "theme": "sunset",
+    "backgroundTexture": "2k_fabric_texture.jpg",
+    "angle": 330,
+    "icon": "👕",
+    "radius": 1.8,
+    "component": "StatsCard",
+    "componentProps": {
+      "title": "Fashion Economics (2024)",
+      "stats": {
+        "Streetwear Market": "$210B",
+        "Sneaker Resale": "$8B (secondary)",
+        "Artist Brands": "58 major lines",
+        "Luxury Collabs": "124 since 2000",
+        "Fashion Week Shows": "47 hip-hop themed",
+        "Designer MVPs": "Virgil Abloh ($1.5B)"
+      },
+      "color": "orange"
+    },
+    "metadata": {
+      "trendsetters": ["Dapper Dan", "Pharrell", "Kanye", "ASAP Rocky", "Rihanna", "Travis Scott"],
+      "brandTransformations": ["Gucci x Dapper Dan", "Louis Vuitton x Virgil", "Adidas x Yeezy", "Nike x Jordan"],
+      "culturalShifts": ["Baggy → Slim → Oversized", "Logomania → Minimalism", "Athleisure → Techwear"],
+      "economicImpact": {
+        "sneakerMarket": 120000000000,
+        "streetwear": 210000000000,
+        "luxuryCollaborations": 45000000000,
+        "artistMerch": 18000000000
+      },
+      "fashionWeeks": ["NYFW", "Paris", "Milan", "London", "Tokyo"],
+      "magazineCovers": 840,
+      "runwayShows": 320,
+      "brandValuations": {
+        "yeezy": 4000000000,
+        "fearOfGod": 1200000000,
+        "offWhite": 2800000000,
+        "supreme": 2000000000
+      },
+      "retailRevolution": ["Drops", "Resale market", "Digital fashion", "NFT wearables"]
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": false,
+      "speed": 0.3,
+      "scale": 2.2,
+      "intensity": 0.25
+    },
+    "iframe": "https://www.vogue.com/hiphop-fashion"
+  },
+  "technology": {
+    "id": "technology",
+    "name": "Tech Innovation",
+    "type": "sector",
+    "description": "Hip Hop Drives Tech Adoption",
+    "parentId": "hiphop",
+    "childrenIds": ["ai_production", "blockchain", "vr_concerts", "social_commerce", "spatial_audio", "web3"],
+    "depth": 1,
+    "isRoot": false,
+    "color": "cyan",
+    "theme": "aqua",
+    "backgroundTexture": "2k_processor_tech.jpg",
+    "angle": 15,
+    "icon": "💻",
+    "radius": 2,
+    "component": "TechnologyCard",
+    "componentProps": {
+      "title": "Tech Integration Index (2024)",
+      "technologies": [
+        { "name": "AI Production Tools", "adoption": 89, "examples": ["LANDR", "Splice", "Boomy", "Google's MusicLM"] },
+        { "name": "Blockchain Royalties", "adoption": 51, "examples": ["Royal", "Opulous", "Audius", "Sound.xyz"] },
+        { "name": "Spatial Audio", "adoption": 94, "examples": ["Dolby Atmos", "360 Reality Audio", "Apple Spatial"] },
+        { "name": "VR/AR Concerts", "adoption": 73, "examples": ["Wave", "MelodyVR", "Fortnite", "Roblox"] },
+        { "name": "Social Commerce", "adoption": 96, "examples": ["Instagram Shopping", "TikTok Store", "YouTube Merch"] },
+        { "name": "Web3 Music", "adoption": 42, "examples": ["NFT albums", "DAO labels", "Tokenized royalties"] }
+      ],
+      "color": "cyan"
+    },
+    "metadata": {
+      "earlyAdoption": ["MP3 (1998)", "MySpace (2005)", "SoundCloud (2008)", "Instagram (2012)", "TikTok (2018)", "Clubhouse (2020)"],
+      "techInvestments": ["Dr. Dre (Beats)", "Jay-Z (Tidal)", "Nas (Coinbase)", "Snoop (NFTs)", "Steve Aoki (Web3)"],
+      "innovationAreas": ["Distribution", "Production", "Monetization", "Community Building", "Fan Engagement"],
+      "patentFilings": 280,
+      "techStartups": 470,
+      "ventureFunding": 3200000000,
+      "exitValues": {
+        "beats": 3000000000,
+        "tidal": 600000000,
+        "audius": 500000000,
+        "splice": 500000000
+      },
+      "rndSpending": 1800000000,
+      "developerCommunity": 24000,
+      "apisAvailable": 87
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.7,
+      "scale": 2.8,
+      "intensity": 0.3,
+      "particleCount": 1300
+    },
+    "iframe": "https://techcrunch.com/hiphop-tech"
+  },
+  "education": {
+    "id": "education",
+    "name": "Hip Hop Education",
+    "type": "institution",
+    "description": "Pedagogy & Academic Recognition",
+    "parentId": "hiphop",
+    "childrenIds": [],
+    "depth": 1,
+    "isRoot": false,
+    "color": "violet",
+    "theme": "dim",
+    "backgroundTexture": "2k_blackboard.jpg",
+    "angle": 345,
+    "icon": "🎓",
+    "radius": 1.8,
+    "component": "StatsCard",
+    "componentProps": {
+      "title": "Educational Impact",
+      "stats": {
+        "University Programs": "287",
+        "PhD Dissertations": "1,240+",
+        "High School Curricula": "4,200+",
+        "Literacy Improvement": "+47%",
+        "Graduation Rates": "+22%",
+        "Academic Journals": "18"
+      },
+      "color": "violet"
+    },
+    "metadata": {
+      "universityPrograms": ["Harvard", "Stanford", "Cornell", "UCLA", "Howard", "Berklee"],
+      "teachingMethods": ["Hip Hop pedagogy", "Culturally responsive teaching", "Trauma-informed instruction"],
+      "researchCenters": ["Hip Hop Archive (Harvard)", "Center for Hip Hop Advocacy", "Universal Hip Hop Museum"],
+      "textbookPublications": 87,
+      "conferenceAnnual": 24,
+      "fellowshipPrograms": 42,
+      "libraryCollections": 38,
+      "archiveSize": "2.4PB digital, 15K physical items",
+      "educationalNgos": 240,
+      "governmentFunding": 180000000,
+      "corporateSponsors": 47,
+      "internationalExchange": 28,
+      "teacherTraining": 4200,
+      "studentImpact": 1800000
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": false,
+      "speed": 0.08,
+      "scale": 1.8,
+      "intensity": 0.12
+    },
+    "iframe": "https://edutopia.org/hiphop-education"
+  },
+  "djing": {
+    "id": "djing",
+    "name": "DJing",
+    "type": "element",
+    "description": "Turntablism & Beat Creation",
+    "parentId": "pillars",
+    "childrenIds": ["turntablists", "producers", "beatmakers"],
+    "depth": 2,
+    "isRoot": false,
+    "color": "blue",
+    "theme": "night",
+    "backgroundTexture": "2k_turntable.jpg",
+    "angle": 75,
+    "icon": "🎛️",
+    "radius": 1.7,
+    "component": "StatsCard",
+    "componentProps": {
+      "title": "DJing Evolution",
+      "stats": {
+        "RPM Evolution": "33⅓ → 45 → 78 → Digital",
+        "Scratch Techniques": "28+",
+        "Beat Matching": "±0.1% accuracy",
+        "Gear Investment": "$5K-$50K",
+        "Software Used": "12+ DAWs"
+      },
+      "color": "blue"
+    },
+    "metadata": {
+      "equipmentEvolution": ["Belt drive → Direct drive → Digital → Controller → Software"],
+      "techniques": ["Scratching", "Beat juggling", "Phasing", "Backspinning", "Transformer"],
+      "competitions": ["DMC World Championships", "Red Bull 3Style", "ITF"],
+      "iconicFigures": ["Grandmaster Flash", "DJ Premier", "J Dilla", "Kool Herc", "Q-Bert"]
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.5,
+      "scale": 2,
+      "intensity": 0.2,
+      "particleCount": 600
+    },
+    "iframe": null
+  },
+  "breaking": {
+    "id": "breaking",
+    "name": "Breaking",
+    "type": "element",
+    "description": "Street Dance & Athletic Expression",
+    "parentId": "pillars",
+    "childrenIds": ["bboys", "bgirls", "crews", "olympics"],
+    "depth": 2,
+    "isRoot": false,
+    "color": "red",
+    "theme": "light",
+    "backgroundTexture": "2k_dance_floor.jpg",
+    "angle": 90,
+    "icon": "💃",
+    "radius": 1.7,
+    "component": "StatsCard",
+    "componentProps": {
+      "title": "Breaking Metrics",
+      "stats": {
+        "Olympic Debut": "2024 Paris",
+        "Global Practitioners": "1M+",
+        "Competitions/Yr": "240+",
+        "Injury Rate": "0.3%",
+        "Training Hours": "10K+ elite"
+      },
+      "color": "red"
+    },
+    "metadata": {
+      "moves": ["Toprock", "Footwork", "Power moves", "Freezes", "Suicides"],
+      "competitions": ["Red Bull BC One", "Battle of the Year", "Freestyle Session"],
+      "olympicStatus": "2024 Paris Games",
+      "iconicCrews": ["Rock Steady Crew", "New York City Breakers", "Style Elements"]
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": true,
+      "speed": 0.8,
+      "scale": 2.5,
+      "intensity": 0.3,
+      "particleCount": 800
+    },
+    "iframe": null
+  },
+  "grafitti": {
+    "id": "grafitti",
+    "name": "Graffiti Writing",
+    "type": "element",
+    "description": "Visual Art & Street Expression",
+    "parentId": "pillars",
+    "childrenIds": ["writers", "styles", "murals", "galleries"],
+    "depth": 2,
+    "isRoot": false,
+    "color": "yellow",
+    "theme": "autumn",
+    "backgroundTexture": "2k_spray_paint.jpg",
+    "angle": 105,
+    "icon": "🎨",
+    "radius": 1.7,
+    "component": "StatsCard",
+    "componentProps": {
+      "title": "Graffiti Economy",
+      "stats": {
+        "Global Market": "$4.2B",
+        "Museum Shows": "87/year",
+        "Auction Records": "$2.1M",
+        "Street Art Tourism": "$800M",
+        "Legal Walls": "4,200+"
+      },
+      "color": "yellow"
+    },
+    "metadata": {
+      "styles": ["Wildstyle", "Throw-ups", "Blockbusters", "Stencils", "3D"],
+      "iconicWriters": ["Dondi", "Lee Quiñones", "Banksy", "Keith Haring", "Jean-Michel Basquiat"],
+      "legalStatus": "Varies by city",
+      "commercialValue": "Street art to fine art transition"
+    },
+    "perlinSettings": {
+      "enabled": true,
+      "particleMode": false,
+      "speed": 0.3,
+      "scale": 2.2,
+      "intensity": 0.25
+    },
+    "iframe": null
+  }
+}

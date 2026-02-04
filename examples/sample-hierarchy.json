@@ -1,0 +1,58 @@
+{
+  "root": {
+    "id": "root",
+    "name": "Root",
+    "type": "category",
+    "description": "Main category",
+    "parentId": null,
+    "childrenIds": ["child1", "child2", "child3"],
+    "depth": 0,
+    "isRoot": true,
+    "color": "primary",
+    "icon": "🌍"
+  },
+  "child1": {
+    "id": "child1",
+    "name": "Child 1",
+    "type": "item",
+    "description": "First child node",
+    "parentId": "root",
+    "childrenIds": [],
+    "depth": 1,
+    "color": "secondary",
+    "icon": "⚡"
+  },
+  "child2": {
+    "id": "child2",
+    "name": "Child 2",
+    "type": "item",
+    "description": "Second child node",
+    "parentId": "root",
+    "childrenIds": ["grandchild"],
+    "depth": 1,
+    "color": "accent",
+    "icon": "🎯"
+  },
+  "child3": {
+    "id": "child3",
+    "name": "Child 3",
+    "type": "item",
+    "description": "Third child node",
+    "parentId": "root",
+    "childrenIds": [],
+    "depth": 1,
+    "color": "secondary",
+    "icon": "✨"
+  },
+  "grandchild": {
+    "id": "grandchild",
+    "name": "Grandchild",
+    "type": "leaf",
+    "description": "Nested node",
+    "parentId": "child2",
+    "childrenIds": [],
+    "depth": 2,
+    "color": "accent",
+    "icon": "🌟"
+  }
+}
