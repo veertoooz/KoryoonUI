@@ -510,7 +510,7 @@ export const SphereScene = ({ hierarchy: initialHierarchy, rootNodeId: propsRoot
             const position = positions[index] 
               ? [positions[index].x, positions[index].y, positions[index].z] 
               : [0, 0, 0];
-
+           
             return (
               <SphericalPointCloud
                 key={`${node.id}-${index}`}

@@ -139,7 +139,7 @@ const SphericalPointCloud: React.FC<SphericalPointCloudProps> = ({
             pointsRef.current.rotation.x = Math.sin(state.clock.elapsedTime * 0.5) * 0.1;
         }
     });
-
+ 
     return (
         <group>
             <Points
@@ -154,7 +154,7 @@ const SphericalPointCloud: React.FC<SphericalPointCloudProps> = ({
                     size={materialSize}
                     sizeAttenuation={true}
                     depthWrite={false}
-                    opacity={opacity}
+                    opacity={color === 'black' ? 0 : opacity}
                     blending={THREE.AdditiveBlending}
                 />
                 {/* Text label */}
